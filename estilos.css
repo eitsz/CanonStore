@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&family=Rajdhani:wght@500&display=swap');
+
+* {   text-align: center;
+    }
+    
+
+h1 { font-family: 'Chakra Petch', sans-serif;
+    font-size: 40px; color: rgb(211, 12, 12);
+}
+
+h2  { font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+}
+
+h3 { font-family: 'Khand', sans-serif;
+    font-size: 25px;
+}
+
+p { font-size: 20px;   }
+
+body { background-color: rgb(190, 189, 189);
+     background-image: url(../imagenes/fondo.jpg);}
+
+a { color: black;
+      text-decoration: none;}
+
+
+
+#menu  {  height: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(224, 92, 92);
+    justify-content: center;
+    gap: 30px;     
+}
+#menu li {   font-size: 25px;
+    font-weight: 700;
+    font-family: 'Rajdhani', sans-serif;
+           
+}
+#menu a:hover {   color: white;
+}
+
+.bienvenida {  display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 40px;
+  }
+  .bienvenida img {   width: 600px;
+    margin-right: 12px;
+  }
+  
+  
+  #botoncomprar {  background-color: rgb(224, 92, 92);
+                    font-size: 25px;
+                    font-family: 'Rajdhani', sans-serif;
+                     font-weight: 700;
+                    border-radius: 50px;
+                margin-top: 15px;
+            padding: 8px;}
+
+                    #botoncomprar:hover  {   background-color:  rgb(255, 0, 0);
+                        color: white;
+                    }
+
+#tipos-de-camaras { margin-top: 100px;
+}
+#tipos-de-camaras h3 { font-size: 35px;
+                       font-family: 'Rajdhani', sans-serif ;
+                       
+}
+
+#tipos-de-camaras h4  { font-size: 30px;
+    font-family: 'Rajdhani', sans-serif ;
+    font-weight: 700;
+    margin-top: 5px;
+    
+}
+
+#tipos-de-camaras p
+  { padding: 9px;
+    margin-bottom: -8px;
+}
+
+
+
+
+    .tiposdecamaras { display: flex;
+         flex-direction:row ;
+         justify-content: center;
+         gap: 60px;
+    }
+
+    .tiposdecamaras div { height: 600px;
+                          width: 400px;
+                          background-color: rgb(201, 77, 77);
+                          padding-top: 15px ;
+                          border-radius: 30px;
+}
+
+    .tiposdecamaras img { width: 350px;
+                          height: 350px;
+   }
+
+   .seccion-reflex { margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   }
+
+   .seccion-reflex img { width: 400px;
+                        
+}
+.seccion-reflex p { width: 700px;
+  
+                        
+}
+
+.ventajas-reflex { display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+                        
+.ventajas-reflex p { width: 300px;
+    justify-content: center;
+    background-color: rgb(201, 77, 77);
+    padding: 7px;
+    border-radius: 25px;
+}
+
+
+.seccion-mirrorless { margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   }
+
+   .seccion-mirrorless img { width: 400px;
+                        
+}
+.seccion-mirrorless p { width: 700px;
+  
+                        
+}
+
+.ventajas-mirrorless { display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+                        
+.ventajas-mirrorless p { width: 300px;
+    justify-content: center;
+    background-color: rgb(201, 77, 77);
+    padding: 7px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.seccion-compacta { margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   }
+
+   .seccion-compacta img { width: 400px;
+                        
+}
+.seccion-compacta p { width: 700px;
+  
+                        
+}
+
+
+.ventajas-compactas { display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+                        
+.ventajas-compactas p { width: 300px;
+    justify-content: center;
+    background-color: rgb(201, 77, 77);
+    padding: 7px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.boton-modelos  {  background-color: rgb(224, 92, 92);
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+     font-weight: 700;
+    border-radius: 50px;
+margin-top: 15px;
+padding: 8px;   }
+.boton-modelos:hover  {   background-color:  rgb(255, 0, 0);
+    color: white;
+        }
+
+
+                        
+
+.img2   { height: 300px;
+        width: 300px;  }
+
+        #fotoautor { height: 300px;
+            width: 300px;  }
+
+
+.contacto { display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 50px;
+margin-bottom: 100px;}
+
+       
+ 
+   .col  {  background-color:  rgb(201, 77, 77);
+            width: 300px;
+            gap: 6px;
+            padding: 8px;
+             }
+
+             input { padding: 5px; }
+
+
+            form { display: flex; 
+                     flex-direction: column;   
+                     justify-content: center; 
+                     align-items: center;
+                  gap: 7px;
+                font-family: 'Rajdhani', sans-serif;
+            font-weight: 700;
+        font-size: large;}
+
+
+             button { padding: 5px; background-color: rgb(219, 49, 49);
+                font-family: 'Rajdhani', sans-serif;
+            font-weight: 700;
+        font-size: large;
+                width: 150px;
+             }
+
+             button:hover{background-color: rgb(139, 16, 16);}
+
+
+.fuentes li { list-style: none; }
+
+
+.autor li { list-style: none; }
+
+.ultimos li { list-style: none; }
+
+
+
+            
+    
+
